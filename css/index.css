@@ -61,7 +61,21 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 650px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
 p {
     line-height: 1.4;
 }
@@ -77,6 +91,10 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 20px;
+}
+.sectionImg {
+    margin-bottom: 20px;
 }
 
 .top-content .text-container {
@@ -143,4 +161,65 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+#boxOne {
+    background-color: teal;
+}
+#boxTwo {
+    background-color: gold;
+}
+#boxThree {
+    background-color: cadetblue;
+}
+#boxFour {
+    background-color: coral;
+}
+#boxFive {
+    background-color: crimson;
+}
+#boxSix {
+    background-color: forestgreen;
+}
+#boxSeven {
+    background-color: darkorchid;
+}
+#boxEight {
+    background-color: hotpink;
+}
+#boxNine {
+    background-color: indigo;
+}
+#boxTen {
+    background-color: dodgerblue;
+}
+.aboutContent {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contentBox {
+    width: 360px;
+    margin-top: 20px;
+    border-bottom: 1px dashed black; 
+    padding-bottom: 15px;
+}
+button {
+    text-decoration: none;
+    background-color: white;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+h2 {
+    margin-top: 20px;
+}
+.about {
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black; 
+}
+.bottomContent {
+    margin-bottom: 15px;
 }
