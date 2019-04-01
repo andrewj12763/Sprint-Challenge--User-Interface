@@ -32,15 +32,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+1. If you were to describe semantic HTML to the next cohort of students, what would you say? The way html is writen is so the browser can recognize what you content is and how to display it. Also this can affect visual aid prorams. HTML is writen with elements that show what content you are providing. 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+ inline block will allow you to set the width and hieght of an element, you can also adjust the padding and margin where you cant with display block.
+3. What are the 4 areas of the box model?content-padding-border-margin
 
-3. What are the 4 areas of the box model?
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?horizantal axis
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
-
-5. Explain why git is valuable to a team of developers.
+5. Explain why git is valuable to a team of developers. version controle between several poeple is hard to controle. Git allows you to submit and join two diffrent code works and compare so you dont mess anything up from the master file.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
